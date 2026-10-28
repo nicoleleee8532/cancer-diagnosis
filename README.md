@@ -8,7 +8,7 @@ The goal of this project is to evaluate and compare three popular machine learni
 
 ### Preprocessing & Workflow
 
-* **Dataset**: `Assignment3-Breast-Cancer-Diagnose.csv`
+* **Dataset**: `data/Assignment3-Breast-Cancer-Diagnose.csv`
 
 * **Target Mapping**: Converted diagnoses to numeric labels (`1` for Malignant, `0` for Benign).
 
@@ -79,15 +79,21 @@ Models were evaluated on the test set using Accuracy, Precision, Recall, and F1-
 git clone https://github.com/your-username/breast-cancer-diagnosis.git
 cd breast-cancer-diagnosis
 
-# Install dependencies
-pip install -r requirements.txt
+# Install the libraries listed in the notebook
+pip install pandas numpy scikit-learn matplotlib seaborn jupyter
 
-# Run diagnosis script
-python main.py
+# Open the analysis notebook
+jupyter notebook notebooks/main.ipynb
 
 ```
 
 ---
+
+## Project Files
+
+- `notebooks/main.ipynb` — preprocessing, model training, and evaluation
+- `data/Assignment3-Breast-Cancer-Diagnose.csv` — dataset
+- `reports/report assignment 3.pdf` — project report
 
 ## Future Enhancements
 
